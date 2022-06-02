@@ -1,0 +1,112 @@
+body {
+background-image: url(webb.png);
+
+}
+header img {
+    display:flex;
+
+    width: 250px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 120px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+header nav a:hover {
+    text-decoration: underline;
+    color: blue;
+    text-decoration-style: solid;
+}
+
+main img {
+    width: 50%;
+    padding: 0 20px;
+    float:left;
+  
+
+}
+main section h2 {
+    display: flex;
+    align-content: stretch;
+    margin-left: 20px;
+}
+main section div  {
+        
+width: 70%;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+       
+} 
+section {
+    display: flex;
+    justify-content: center;
+    background-image: url(lidl.jpg);
+    padding: 20px 100px 20px 50px;
+margin: 0px 200px 0 200px;
+
+
+}
+
+    
+#contact header img {
+    color: green;
+}
+
+#contact input, #contact textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact input[type=submit]{
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#contact table{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact table, td, th{
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#contact tr td:first-child{
+    color: green;
+    font-weight: bold;
+}
+#contact span {
+    color: green;
+}
+
+#contact button {
+    display: flex;
+    align-self: flex-start;
+    font-size: 50%;
+    height: 50%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+        align-self: flex-end;
+    margin: 10px 0px 10px 0px;
+
+}
